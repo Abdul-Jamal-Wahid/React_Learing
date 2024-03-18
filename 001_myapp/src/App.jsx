@@ -1,11 +1,11 @@
 import { useState } from 'react'
-
+import Chai from './Chai'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
+    // <>//fregment in javascripts........
     <>
-      <h1>Hello Abdul Welcome to React </h1>
+    <Chai/>
+    <h1>Hello</h1>
     </>
   )
 }
