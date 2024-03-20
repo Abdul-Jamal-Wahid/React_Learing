@@ -16,9 +16,11 @@ function App() {
     
   }
   const addremove=()=>{
+    if(counter>0)
     setCounter(counter-1);
   }
   const addMul=()=>{
+    if(counter<100000)
     setCounter(counter*2)
   }
   return (
