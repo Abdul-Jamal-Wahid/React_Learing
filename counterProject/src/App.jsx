@@ -11,6 +11,7 @@ function App() {
   //let counters=15;
   const addValue=()=>{
   //counter=counter+1;
+  if(counter<20)
     setCounter(counter+1);
     
     
@@ -20,7 +21,7 @@ function App() {
     setCounter(counter-1);
   }
   const addMul=()=>{
-    if(counter<100000)
+    if(counter)
     setCounter(counter*2)
   }
   return (
